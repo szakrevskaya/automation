@@ -1,6 +1,6 @@
-package web.pageobjects.helpers;
+package com.stormnet.projects.functional.entities.helpers;
 
-import web.pageobjects.pages.AbstractPage;
+import com.stormnet.projects.functional.entities.pages.AbstractPage;
 
 public class AbstractHelper {
     AbstractPage abstractPage = new AbstractPage();

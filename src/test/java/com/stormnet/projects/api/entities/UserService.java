@@ -1,11 +1,11 @@
-package api.entities;
+package com.stormnet.projects.api.entities;
 
 import by.stormnet.core.FrameworkHttpClient;
 import by.stormnet.core.Response;
 
 public class UserService extends AbstractService {
     private FrameworkHttpClient client = new FrameworkHttpClient();
-    private String userUrl = baseAppUrl + "/api/users";
+    private String userUrl = baseAppUrl + "/com/stormnet/projects/api/users";
 
     public Response getUsersList(){
         System.out.println("Get users list request");

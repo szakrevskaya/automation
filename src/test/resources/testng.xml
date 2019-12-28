@@ -2,11 +2,7 @@
 <suite name="Acceptance suite">
     <test verbose="2" name="Reminders test">
         <classes>
-            <class name="web.dataprovider.RemindersSendTest"/>
-        </classes>
-        <classes>
-            <class name="api.ApiTests"/>
-            <class name="web.dataprovider.RemindersSendTest"/>
+            <class name="com.stormnet.projects.functional.tests.LamodaSearchTest"/>
         </classes>
     </test>
 </suite>

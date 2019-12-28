@@ -1,6 +1,6 @@
-package api;
+package com.stormnet.projects.api;
 
-import api.entities.UserService;
+import com.stormnet.projects.api.entities.UserService;
 import by.stormnet.core.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;

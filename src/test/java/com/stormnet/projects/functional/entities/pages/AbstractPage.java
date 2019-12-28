@@ -1,4 +1,4 @@
-package web.pageobjects.pages;
+package com.stormnet.projects.functional.entities.pages;
 
 import by.stormnet.core.FrameworkCore;
 import by.stormnet.core.utils.PauseLength;
