@@ -13,7 +13,7 @@ public class LamodaSearchTest {
     public void performSearch(){
         int countPerPage = homeHelper.search(searchKey)
                 .getSearchResultsCountPerPage();
-        Assert.assertTrue(countPerPage > 0, "No results were found!");
+        Assert.assertTrue(countPerPage < 0, "No results were found!");
     }
 
     @AfterClass
